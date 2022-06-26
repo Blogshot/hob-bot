@@ -48,7 +48,7 @@ function setListeners(client) {
         }
 
         client.user.setStatus('online');
-        client.user.setPresence({ activity: { name: (isSharded ? "!hob --help (" + client.shard.ids + ")" : "!hob --help"), status: 'idle' } });
+        client.user.setPresence({ activities: [{name: "!hob --help"}],status: 'idle'});
 
         if (isSharded) {
             logger.log(client.shard.ids, "Ready!");
