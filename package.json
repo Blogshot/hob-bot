@@ -4,8 +4,9 @@
   "description": "https://discordapp.com/oauth2/authorize?client_id=247869756609265664&scope=bot&permissions=0",
   "main": "bot.js",
   "dependencies": {
-    "@discordjs/voice": "^0.10.0",
-    "discord.js": "^13.8.0",
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.11.0",
+    "discord.js": "^14.3.0",
     "ffmpeg": "^0.0.4",
     "libsodium-wrappers": "^0.7.10"
   },
